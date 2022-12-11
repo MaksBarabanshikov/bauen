@@ -3705,6 +3705,7 @@ hr.border-2 {
 /* ======= Buttons style ======= */
 /* dark */
 .butn-dark {
+    color: #000000;
     position: relative;
     line-height: 1.2em;
 }
