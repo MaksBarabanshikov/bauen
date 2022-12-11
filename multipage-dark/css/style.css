@@ -480,10 +480,7 @@ blockquote cite:before {
     width: 100%;
     background: transparent;
     z-index: 99;
-    padding-right: 10%;
-    padding-left: 0;
-    padding-top: 0;
-    padding-bottom: 0;
+    padding: 0;
 }
 .navbar .icon-bar {
     color: #b19777;
