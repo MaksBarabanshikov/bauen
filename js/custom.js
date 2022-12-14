@@ -78,10 +78,6 @@ $(function() {
 			});
 			return false;
 		});
-		$(".sity-gallery-items").isotope({
-			itemSelector: '.single-item'
-			, layoutMode: 'masonry'
-		, });
 	});
 
     // Animations
