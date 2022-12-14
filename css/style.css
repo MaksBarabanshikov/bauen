@@ -2749,52 +2749,6 @@ button.mfp-arrow {
     .nav-scroll .navbar-collapse .active {
         color: #b19777 !important;
     }
-    .dropdown-menu {
-        opacity: 1;
-        visibility: visible;
-        -webkit-transform: translateY(0);
-        transform: translateY(0);
-        width: 100%;
-        display: none;
-    }
-    .dropdown-menu .sub-menu {
-        position: static;
-        margin-top: 15px;
-        opacity: 1;
-        visibility: visible;
-        -webkit-transform: translateY(0);
-        transform: translateY(0);
-        width: 100%;
-        display: none;
-    }
-    .dropdown:hover .dropdown-menu,
-    .dropdown:hover .mega-menu {
-        display: block;
-    }
-    .dropdown .dropdown-menu:hover .sub-menu {
-        display: block;
-    }
-    .dropdown .mega-menu {
-        width: 100%;
-        position: static;
-        opacity: 1;
-        visibility: visible;
-        -webkit-transform: translateY(0);
-        transform: translateY(0);
-        width: 100%;
-        display: none;
-    }
-    .dropdown .mega-menu .dropdown-menu {
-        border: 0;
-        margin: 0;
-    }
-    .dropdown .mega-menu .dropdown-title {
-        border-bottom-color: #999;
-    }
-    .dropdown-menu .dropdown-item,
-    .sub-menu .dropdown-item {
-        color: #999;
-    }
     .header {
         background-attachment: scroll !important;
         background-position: 50% 0% !important;
