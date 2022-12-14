@@ -1,3 +1,57 @@
+/* -----------------------------------------------------------------------------------
+
+ 01. Google fonts
+ 02. Basics style
+ 03. Helper style - [NEW] 
+ 04. Selection style 
+ 05. Owl-Theme custom style
+ 06. Section style
+ 07. Navbar style
+ 08. Header style
+ 09. Slider style
+ 10. Slider Left Panel style
+ 11. Page Banner Header style
+ 12. Content Lines style
+ 13. Video Background - [NEW] 
+ 14. About style 
+ 15. Team style
+ 16. Team Details style
+ 17. Careers style - [NEW] 
+ 18. Services style
+ 19. Services2 style - [NEW]
+ 20. Services3 style - [NEW]
+ 21. Services4 style - [NEW]
+ 22. Projects style
+ 23. Projects2 (masonry) style
+ 24. Projects3 style
+ 25. Projects4 style
+ 26. Project Gallery style
+ 27. Project Page style - [NEW]  
+ 28. Clients style
+ 29. Gallery style
+ 30. Promo Video and Testimonials style
+ 31. Blog 1 style
+ 32. Blog 2 style
+ 33. Blog 3 style
+ 34. Blog 4 style - [NEW]  
+ 35. Post style
+ 36. Contact style
+ 37. Buttons style
+ 38. Footer style
+ 39. Corner style
+ 40. Preloader style
+ 41. toTop Button style
+ 42. Accordion Box (for Faqs) style
+ 43. Pricing plan style
+ 44. Error Page - 404 style
+ 45. Process style
+ 46. Process 2 style - [NEW] 
+ 47. Comming soon style
+ 48. Overlay Effect Bg image style - [NEW]
+ 49. Responsive (Media Query)
+ 
+----------------------------------------------------------------------------------- */
+
 
 /* ======= Google fonts (Oswald & Didact Gothic) ======= */
 @import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Oswald:wght@200;300;400;500;600;700&display=swap');
@@ -236,7 +290,7 @@ blockquote cite:before {
     bottom: 5px;
     width: 45px;
     height: 1px;
-    border-top: 1px solid;
+    border-top: 1px solid; 
     border-color:inherit;
     color: #b19777;
 }
@@ -304,10 +358,6 @@ blockquote cite:before {
     opacity: 0;
 }
 
-.container {
-    max-width: 1400px;
-}
-
 
 /* ======= Helper style ======= */
 .mt-0 {
@@ -372,7 +422,7 @@ blockquote cite:before {
     width: 8px;
     height: 8px;
     margin: 0 3px;
-    border-radius: 0;
+    border-radius: 50%;
     background: transparent;
     border: 1px solid rgba(255, 255, 255, 0.2);
 }
@@ -395,7 +445,6 @@ blockquote cite:before {
     font-size: 20px;
     margin-bottom: 20px;
 }
-
 .section-title {
     font-size: 40px;
     font-family: 'Oswald', sans-serif;
@@ -421,42 +470,6 @@ blockquote cite:before {
     text-transform: uppercase;
 }
 
-/* ======= header style ======= */
-.header__banner {
-    background-image: url(../img/projects/index-banner.jpg);
-}
-
-.header__banner .section-title {
-    font-size: 96px !important;
-}
-
-@media screen and (max-width: 1400px) {
-    .header__banner .section-title {
-        font-size: 70px !important;
-    }
-}
-
-@media screen and (max-width: 1100px) {
-    .header__banner .section-title {
-        font-size: 50px !important;
-    }
-}
-
-@media screen and (max-width: 756px) {
-    .header__banner .section-title {
-        font-size: 36px !important;
-    }
-}
-
-@media screen and (max-width: 600px) {
-    .header__banner .section-title {
-        font-size: 24px !important;
-    }
-
-    .header__banner p {
-        font-size: 14px;
-    }
-}
 
 /* ======= Navbar style ======= */
 .navbar {
@@ -466,7 +479,10 @@ blockquote cite:before {
     width: 100%;
     background: transparent;
     z-index: 99;
-    padding: 0;
+    padding-right: 10%;
+    padding-left: 0;
+    padding-top: 0;
+    padding-bottom: 0;
 }
 .navbar .icon-bar {
     color: #b19777;
@@ -493,7 +509,7 @@ blockquote cite:before {
 }
 .nav-scroll {
     background: #272727;
-    padding: 0;
+    padding: 0 10% 0 0;
     position: fixed;
     top: -100px;
     left: 0;
@@ -791,11 +807,6 @@ blockquote cite:before {
     font-weight: 400;
     letter-spacing: 15px;
 }
-
-.header .caption h1 span {
-    color: #b19777;
-}
-
 .header .caption p {
     font-size: 18px;
     line-height: 1.75em;
@@ -982,26 +993,6 @@ blockquote cite:before {
 
 
 /* ======= Page Banner Header style ======= */
-.gray-banner {
-    background-image: url("../img/banner.jpg");
-    background-repeat: no-repeat !important;
-    background-size: 100% 500px !important;
-    position: relative;
-    left: 0;
-    right: 0;
-}
-
-.gray-banner::before {
-    content: "";
-    background: linear-gradient(180deg, rgba(50, 50, 50, 0) -18.03%, #323232 17.12%, #272727 32.6%);
-    position: absolute;
-    z-index: 100;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    opacity: 0.1;
-}
 .banner-header {
     height: 50vh;
     z-index: -2;
@@ -1338,7 +1329,7 @@ blockquote cite:before {
     font-weight: 400;
     font-size: 16px;
     line-height: 26px
-
+    
 }
 .team-details .content .info-list .list-description {
     display: inline
@@ -1725,7 +1716,7 @@ blockquote cite:before {
         padding: 25px 0
     }
     .services2 .services2-text {
-
+  
     }
 }
 
@@ -2217,7 +2208,7 @@ blockquote cite:before {
   .projects-prev-next {
     text-align: center;
   }
-
+    
   .projects-prev-next-left {
         margin-bottom: 10px;
     }
@@ -2675,7 +2666,7 @@ blockquote cite:before {
   transition: -webkit-transform 0.45s cubic-bezier(0.4, 0, 0.2, 1);
   -o-transition: transform 0.45s cubic-bezier(0.4, 0, 0.2, 1);
   transition: transform 0.45s cubic-bezier(0.4, 0, 0.2, 1);
-  transition: transform 0.45s cubic-bezier(0.4, 0, 0.2, 1),
+  transition: transform 0.45s cubic-bezier(0.4, 0, 0.2, 1), 
   -webkit-transform 0.45s cubic-bezier(0.4, 0, 0.2, 1);
 }
 .gallery-masonry-wrapper .gallery-masonry-item-title {
@@ -2708,7 +2699,7 @@ blockquote cite:before {
     margin-left: auto;
     margin-right: auto;
   }
-
+    
      .bauen-gallery-items .col-md-6:nth-child(2) {
         margin-top: 0;
     }
@@ -2724,7 +2715,7 @@ blockquote cite:before {
     .bauen-gallery-items .single-item {
         padding-bottom: 30px;
     }
-
+ 
 }
 @media only screen and (max-width: 400px) {
   .gallery-masonry-wrapper {
@@ -2761,7 +2752,7 @@ blockquote cite:before {
 }
 @media (max-width: 576px) {
     .project-bar {
-     margin-top: 0px;
+     margin-top: 0px; 
     }
 }
 /* page list */
@@ -3077,6 +3068,8 @@ button.mfp-arrow {
     font-size: 10px;
 }
 
+
+
 /* ======= Blog 1 style ======= */
 .bauen-blog .item {
     position: relative;
@@ -3106,6 +3099,7 @@ button.mfp-arrow {
 .bauen-blog .item .con {
     margin: -120px 20px 75px;
     padding: 15px 15px 25px 15px;
+    background-color: #323232 !important;
     border: 1px solid #323232;
     border-radius: 0;
     overflow: hidden;
@@ -3113,13 +3107,7 @@ button.mfp-arrow {
     transition: .2s cubic-bezier(.3, .58, .55, 1);
     bottom: -55px;
     position: relative;
-    text-align: left !important;
-    background: #323232 !important;
 }
-.bauen-blog .item .con h5, .projects .item .con h5 a {
-    text-transform: capitalize !important;
-}
-
 .bauen-blog .item .con .category {
     font-size: 12px;
     font-weight: 400;
@@ -3240,7 +3228,7 @@ button.mfp-arrow {
   left: 0px;
 }
 .bauen-blog2 .content .cont .more:hover {
-   color: #fff;
+   color: #fff; 
 }
 .bauen-blog2 .content .info h6 {
     font-size: 11px;
@@ -3269,7 +3257,7 @@ button.mfp-arrow {
     -webkit-box-ordinal-group: 2 !important;
         -ms-flex-order: 1 !important;
             order: 1 !important;
-  }
+  }  
 }
 @media screen and (max-width: 480px) {
     .bauen-blog2 .content {
@@ -3714,7 +3702,6 @@ hr.border-2 {
 /* ======= Buttons style ======= */
 /* dark */
 .butn-dark {
-    color: #000000;
     position: relative;
     line-height: 1.2em;
 }
@@ -4457,7 +4444,7 @@ hr.border-2 {
 }
 .process2.item .icon {
     margin-bottom: 15px;
-    font-size: 40px;
+    font-size: 40px; 
     color: #b19777;
 }
 .process2.item i.number {
