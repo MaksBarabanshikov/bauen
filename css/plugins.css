@@ -1,14 +1,14 @@
-/* == bootstrap == */
+/* == bootstrap базовые классы разметки== */
 @import url("plugins/bootstrap.min.css");
 
-/* == owl.carousel == */
+/* == owl.carousel стили для карусели == */
 @import url("plugins/owl.carousel.min.css");
 @import url("plugins/owl.theme.default.min.css");
 
-/* == animate css == */
+/* == анимации == */
 @import url("plugins/animate.min.css");
 
-/* == themify icons ==*/
+/* == иконки ==*/
 @import url("plugins/themify-icons.css");
 
 /* == magnific-popup gallery  == */

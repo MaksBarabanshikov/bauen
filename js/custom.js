@@ -390,8 +390,7 @@ Pace.on('done', function() {
         .done(done_func)
         .fail(fail_func);
     });
-
-
+    
 /* for preloader */
 if(navigator.userAgent.toLowerCase().indexOf('firefox') > -1){
 var initDestroyTimeOutPace = function() {
