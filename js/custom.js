@@ -59,10 +59,6 @@ $(function() {
 			});
 			return false;
 		});
-		$(".sity-project-items").isotope({
-			itemSelector: '.single-item'
-			, layoutMode: 'masonry'
-		, });
 	});
 
     // Isotope Active Masonry Gallery
