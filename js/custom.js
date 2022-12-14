@@ -467,3 +467,5 @@ var initDestroyTimeOutPace = function() {
 }
 initDestroyTimeOutPace();
 }
+
+$('html').removeClass().addClass('js');
